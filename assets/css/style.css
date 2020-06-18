@@ -1,0 +1,26 @@
+/*
+Fondo: #edf2f4
+Título: #e63946
+Hover: #8d99ae
+
+*/
+ p{
+  text-align: center;
+  background:#e63946 ;
+  color:#edf2f4;
+}
+.contenedor-imagenes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  flex-basis:25%;
+  width:25%;
+  margin:10px;
+  /*flex-grow: 1;*/
+}
+img:hover{
+border:5PX #8d99ae solid;
+}
